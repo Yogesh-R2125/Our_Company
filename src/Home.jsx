@@ -7,7 +7,7 @@ const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 const Home = () => {
   const [services, setServices] = useState([]);
   const [testimonials, setTestimonials] = useState([]);
-  const [stats, setStats] = useState({ projects: 50, team: 4, clients: 30 });
+  const [stats, setStats] = useState({ projects: 50, team: 5, clients: 30 });
 
   useEffect(() => {
     fetch(`${API_URL}/services`)
@@ -73,7 +73,7 @@ const Home = () => {
                 <span className="section-tag">Who We Are</span>
                 <h2>A Young Team With <span className="gradient-text">Big Ambitions</span></h2>
                 <p>
-                  We are 4 co-founders united by our passion for technology and design.
+                  We are 5 co-founders united by our passion for technology and design.
                   We combine expertise in full-stack development, mobile apps, UI/UX design,
                   and cloud solutions to deliver end-to-end digital products.
                 </p>

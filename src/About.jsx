@@ -15,10 +15,11 @@ const About = () => {
   }, []);
 
   const fallbackTeam = [
-    { id: 1, name: 'AKash Mathialagan', role: 'Full Stack Developer & Co-Founder', bio: 'Passionate full-stack developer with expertise in React, Node.js, and cloud technologies.' },
+    { id: 1, name: 'Akash Mathialagan', role: 'Full Stack Developer & Co-Founder', bio: 'Passionate full-stack developer with expertise in React, Node.js, and cloud technologies.' },
     { id: 2, name: 'Yogesh Rajendran', role: 'UI/UX Designer & Co-Founder', bio: 'Creative designer focused on crafting beautiful and intuitive user experiences.' },
     { id: 3, name: 'Joshika Thirumoorthi', role: 'Backend Developer & Co-Founder', bio: 'Expert in scalable server-side applications, database architecture, and API design.' },
     { id: 4, name: 'Sanchari Mohanty K', role: 'Mobile Developer & Co-Founder', bio: 'Skilled mobile developer building high-performance cross-platform apps.' },
+    { id: 5, name: 'Dharsan Sivakumar', role: 'Marketing & Co-Founder', bio: 'Ensuring company sales and marketing mastermind help for digital marketing insights.' },
   ];
 
   const teamData = team.length > 0 ? team : fallbackTeam;
