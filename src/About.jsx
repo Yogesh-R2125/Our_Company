@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className="container">
           <span className="section-tag">About Us</span>
-          <h1>We Are <span className="gradient-text">FreelanceCo</span></h1>
+          <h1>We Are <span className="gradient-text">WolfStack</span></h1>
           <p className="hero-subtitle">
             Four passionate minds, one shared vision — delivering exceptional digital experiences
             that help businesses thrive in the modern world.
@@ -59,7 +59,7 @@ const About = () => {
               <span className="section-tag">Our Story</span>
               <h2>From <span className="gradient-text">Idea to Reality</span></h2>
               <p>
-                FreelanceCo was born from a simple idea: what if a small team of dedicated
+                WolfStack was born from a simple idea: what if a small team of dedicated
                 professionals could deliver the same quality as a large agency, but with the
                 personal touch and agility of a startup?
               </p>
