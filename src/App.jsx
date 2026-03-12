@@ -18,11 +18,14 @@ function ScrollToTop() {
   return null;
 }
 
-function App() {
+function AppContent() {
+  const { pathname } = useLocation();
+  const isHome = pathname === '/';
+
   return (
-    <Router>
+    <>
       <ScrollToTop />
-      <ParticleBackground />
+      {isHome && <ParticleBackground />}
       <div className="glow-orb glow-orb-1"></div>
       <div className="glow-orb glow-orb-2"></div>
       <div className="glow-orb glow-orb-3"></div>
@@ -39,6 +42,14 @@ function App() {
         </main>
         <Footer />
       </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 }

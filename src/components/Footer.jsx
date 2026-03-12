@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-grid">
           <div className="footer-brand">
-            <h3 className="logo-gradient">FreelanceCo</h3>
+            <h3 className="logo-gradient">WolfStack</h3>
             <p>We build digital products that drive growth. A team of passionate developers and designers crafting modern digital experiences.</p>
             <div className="social-links">
               <a href="#" aria-label="LinkedIn" className="social-icon">in</a>
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} FreelanceCo. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} WolfStack. All rights reserved.</p>
           <p>Crafted with precision by our team</p>
         </div>
       </div>

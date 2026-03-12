@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <span className="logo-gradient">FreelanceCo</span>
+          <span className="logo-gradient">Wolf<span className="logo-highlight">Stack</span></span>
         </Link>
 
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
