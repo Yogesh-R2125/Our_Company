@@ -18,6 +18,14 @@ const Navbar = () => {
     setIsOpen(false);
   }, [location]);
 
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/services', label: 'Services' },
@@ -32,7 +40,7 @@ const Navbar = () => {
           <span className="logo-gradient">Wolf<span className="logo-highlight">Stack</span></span>
         </Link>
 
-        <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
+        <div id="site-navigation" className={`nav-menu ${isOpen ? 'active' : ''}`}>
           {navLinks.map((link) => (
             <Link
               key={link.path}
@@ -49,6 +57,8 @@ const Navbar = () => {
           className={`hamburger ${isOpen ? 'active' : ''}`}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
+          aria-controls="site-navigation"
         >
           <span></span>
           <span></span>
