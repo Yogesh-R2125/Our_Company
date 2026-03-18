@@ -37,9 +37,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: '📍', title: 'Address', value: 'Coimbatore, India' },
-    { icon: '📧', title: 'Email', value: 'wolfstackstudios@gmail.com' },
-    { icon: '📞', title: 'Phone', value: '+91 90800 61923' },
+    { icon: '📍', title: 'Address', value: 'Your City, India' },
+    { icon: '📧', title: 'Email', value: 'hello@freelanceco.com' },
+    { icon: '📞', title: 'Phone', value: '+91 XXXXX XXXXX' },
     { icon: '🕐', title: 'Working Hours', value: 'Mon - Sat, 9 AM - 7 PM IST' },
   ];
 
